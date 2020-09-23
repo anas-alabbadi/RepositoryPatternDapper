@@ -1,0 +1,105 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/anasalabbadi/Projects/GitLab_Repos/dapper_repopattern/Application_DataRepository/Application_DataRepository.csproj": {}
+  },
+  "projects": {
+    "/Users/anasalabbadi/Projects/GitLab_Repos/dapper_repopattern/Application_DataRepository/Application_DataRepository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/anasalabbadi/Projects/GitLab_Repos/dapper_repopattern/Application_DataRepository/Application_DataRepository.csproj",
+        "projectName": "Application_DataRepository",
+        "projectPath": "/Users/anasalabbadi/Projects/GitLab_Repos/dapper_repopattern/Application_DataRepository/Application_DataRepository.csproj",
+        "packagesPath": "/Users/anasalabbadi/.nuget/packages/",
+        "outputPath": "/Users/anasalabbadi/Projects/GitLab_Repos/dapper_repopattern/Application_DataRepository/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/anasalabbadi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "AdoNetCore.AseClient": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[1.50.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.109.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            },
+            "System.Reflection.Emit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.Emit.Lightweight": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Reflection.TypeExtensions": {
+              "target": "Package",
+              "version": "[4.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
